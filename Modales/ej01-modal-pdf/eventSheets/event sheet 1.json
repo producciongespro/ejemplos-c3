@@ -1,0 +1,117 @@
+{
+	"name": "Event sheet 1",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "btnPdf1",
+					"sid": 843572187574513
+				}
+			],
+			"actions": [
+				{
+					"id": "navigate-url",
+					"objectClass": "visorPDF",
+					"sid": 169886406772945,
+					"parameters": {
+						"url": "\"https://recursos.mep.go.cr/2021/educacion_financiera_cuadernos/webservice/presupuestacion.pdf\""
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "visorPDF",
+					"sid": 606428869226831,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "btnCerrar",
+					"sid": 197298658808683,
+					"parameters": {
+						"visibility": "visible"
+					}
+				}
+			],
+			"sid": 379775935018704
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "btnPdf2",
+					"sid": 287785944075486
+				}
+			],
+			"actions": [
+				{
+					"id": "navigate-url",
+					"objectClass": "visorPDF",
+					"sid": 306383184251743,
+					"parameters": {
+						"url": "\"https://recursos.mep.go.cr/2021/educacion_financiera_cuadernos/webservice/economiacocial.pdf\""
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "visorPDF",
+					"sid": 574305395787982,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "btnCerrar",
+					"sid": 663569215256157,
+					"parameters": {
+						"visibility": "visible"
+					}
+				}
+			],
+			"sid": 850342681769480
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "btnCerrar",
+					"sid": 503330723358112
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "visorPDF",
+					"sid": 843729398469596,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "btnCerrar",
+					"sid": 762001029885061,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "navigate-url",
+					"objectClass": "visorPDF",
+					"sid": 436547692890354,
+					"parameters": {
+						"url": "\"\""
+					}
+				}
+			],
+			"sid": 130248244661594
+		}
+	],
+	"sid": 401921871195332
+}

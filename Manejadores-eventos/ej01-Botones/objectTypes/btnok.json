@@ -1,0 +1,15 @@
+{
+	"name": "btnOk",
+	"plugin-id": "Button",
+	"sid": 172812726266929,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "posicion",
+			"type": "number",
+			"desc": "",
+			"sid": 906453306605242
+		}
+	],
+	"behaviorTypes": []
+}
