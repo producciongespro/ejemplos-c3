@@ -1,0 +1,113 @@
+{
+	"name": "colores",
+	"plugin-id": "Sprite",
+	"sid": 106600273073331,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "color",
+			"type": "string",
+			"desc": "",
+			"sid": 228486163832164
+		}
+	],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 32,
+						"height": 32,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 7770889,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 378907906871722,
+				"name": "Azul",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 32,
+						"height": 32,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 4392330,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 994888189175406,
+				"name": "Rojo",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 32,
+						"height": 32,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 4106963,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 124050528609686,
+				"name": "Verde",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 32,
+						"height": 32,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 7254786,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 327547690862474,
+				"name": "Cafe",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

@@ -1,0 +1,26 @@
+{
+	"name": "Event sheet 1",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "Touch",
+					"sid": 680583614739847,
+					"parameters": {
+						"object": "colores"
+					}
+				}
+			],
+			"actions": [
+				{
+					"type": "script",
+					"script": "handleVerColores(runtime)"
+				}
+			],
+			"sid": 377403675495867
+		}
+	],
+	"sid": 178883716510066
+}
