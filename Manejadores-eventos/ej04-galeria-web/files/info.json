@@ -1,0 +1,24 @@
+[
+	
+	{
+		"id": "1",
+		"etiqueta": "Natgeo",
+		"descripcion": "Sitio de National Geographic",
+		"url": "https://www.nationalgeographic.com/"	
+	},
+	{
+		"id": "2",
+		"etiqueta": "Educatico mep",
+		"descripcion": "Recursos educativos mep",
+		"url": "https://www.mep.go.cr/educatico"	
+	},
+		{
+		"id": "3",
+		"etiqueta": "Noticias",
+		"descripcion": "Noticionas nacionales",
+		"url": "https://www.nacion.com/"	
+	}
+	
+	
+	
+]

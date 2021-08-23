@@ -1,0 +1,21 @@
+{
+	"name": "btnInfo",
+	"plugin-id": "Button",
+	"sid": 918022689691870,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "descripcion",
+			"type": "string",
+			"desc": "",
+			"sid": 592979898850003
+		},
+		{
+			"name": "url",
+			"type": "string",
+			"desc": "",
+			"sid": 418726823974869
+		}
+	],
+	"behaviorTypes": []
+}
