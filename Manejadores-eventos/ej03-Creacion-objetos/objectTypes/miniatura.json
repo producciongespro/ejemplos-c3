@@ -1,0 +1,90 @@
+{
+	"name": "miniatura",
+	"plugin-id": "Sprite",
+	"sid": 314776535044624,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "texto",
+			"type": "string",
+			"desc": "",
+			"sid": 179241014469736
+		}
+	],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 250,
+						"height": 250,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 3431840,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 278418370671473,
+				"name": "Azul",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 250,
+						"height": 250,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 9803329,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 641489288147637,
+				"name": "Rojo",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 250,
+						"height": 250,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 9340347,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 250897613730520,
+				"name": "Verde",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

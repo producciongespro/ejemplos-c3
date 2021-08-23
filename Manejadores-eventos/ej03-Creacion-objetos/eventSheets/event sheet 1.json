@@ -1,0 +1,47 @@
+{
+	"name": "Event sheet 1",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 687594045462449
+				}
+			],
+			"actions": [
+				{
+					"type": "script",
+					"script": "setup(runtime)"
+				}
+			],
+			"sid": 734562191025030
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "Touch",
+					"sid": 353567873182013,
+					"parameters": {
+						"object": "miniatura"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-text",
+					"objectClass": "txtVisor",
+					"sid": 995826605635251,
+					"parameters": {
+						"text": "miniatura.texto"
+					}
+				}
+			],
+			"sid": 348006954619900
+		}
+	],
+	"sid": 345082094080473
+}
