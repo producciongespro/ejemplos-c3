@@ -51,7 +51,7 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 226,
+						"x": 230,
 						"y": 165,
 						"width": 32,
 						"height": 32,
@@ -113,7 +113,7 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 363,
+						"x": 354,
 						"y": 165,
 						"width": 32,
 						"height": 32,
@@ -140,9 +140,9 @@
 						"bold": false,
 						"italic": false,
 						"color": [
-							0,
-							0,
-							0,
+							1,
+							1,
+							1,
 							1
 						],
 						"horizontal-alignment": "left",
@@ -170,6 +170,37 @@
 						"angle": 0,
 						"zElevation": 0
 					}
+				},
+				{
+					"type": "colores",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Cafe",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 8,
+					"instanceVariables": {
+						"color": "Morado"
+					},
+					"behaviors": {},
+					"world": {
+						"x": 415,
+						"y": 165,
+						"width": 32,
+						"height": 32,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
 				}
 			],
 			"sid": 415468416820499,
@@ -182,9 +213,9 @@
 				1
 			],
 			"backgroundColor": [
-				0.3686274509803922,
-				0.3686274509803922,
-				0.3686274509803922,
+				0,
+				0,
+				0,
 				1
 			],
 			"isTransparent": false,
