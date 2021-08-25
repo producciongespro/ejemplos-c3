@@ -1,0 +1,23 @@
+{
+	"name": "eSplash",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 719156997646530
+				}
+			],
+			"actions": [
+				{
+					"type": "script",
+					"script": "setup(runtime)"
+				}
+			],
+			"sid": 724738235285291
+		}
+	],
+	"sid": 701766461902826
+}

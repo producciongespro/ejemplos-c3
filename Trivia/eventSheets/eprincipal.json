@@ -1,0 +1,33 @@
+{
+	"name": "ePrincipal",
+	"events": [
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Iniciar",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-start-of-layout",
+							"objectClass": "System",
+							"sid": 954539942508663
+						}
+					],
+					"actions": [
+						{
+							"type": "script",
+							"script": "init(runtime)"
+						}
+					],
+					"sid": 772046087004487
+				}
+			],
+			"sid": 737907254295634
+		}
+	],
+	"sid": 567426722686101
+}
