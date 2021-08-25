@@ -14,6 +14,14 @@
 				{
 					"type": "script",
 					"script": "setup(runtime)"
+				},
+				{
+					"id": "load-stylesheet",
+					"objectClass": "Browser",
+					"sid": 246651491542710,
+					"parameters": {
+						"url": "\"master.css\""
+					}
 				}
 			],
 			"sid": 724738235285291

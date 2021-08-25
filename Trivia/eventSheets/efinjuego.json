@@ -1,0 +1,57 @@
+{
+	"name": "eFinJuego",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "btnVolver",
+					"sid": 496447939078715
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 697420185201094,
+					"parameters": {
+						"layout": "Principal"
+					}
+				}
+			],
+			"sid": 911835825086804
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 529643026580142
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "retroSeleccion",
+					"sid": 951471041197860,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-elem-attribute",
+					"objectClass": "btnVolver",
+					"sid": 610648546854927,
+					"parameters": {
+						"attribute-name": "\"class\"",
+						"attribute-value": "\"btn-rojo\""
+					}
+				}
+			],
+			"sid": 791374969460542
+		}
+	],
+	"sid": 540995180780268
+}

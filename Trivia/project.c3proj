@@ -29,6 +29,14 @@
 			"author": "Scirra",
 			"version": "r260",
 			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Browser",
+			"name": "Browser",
+			"author": "Scirra",
+			"version": "r260",
+			"bundled": false
 		}
 	],
 	"uniqueId": "aaxugm5g9ax",
@@ -51,7 +59,8 @@
 			},
 			{
 				"items": [
-					"txtPregunta"
+					"txtPregunta",
+					"txtTiempo"
 				],
 				"subfolders": [],
 				"name": "Textos"
@@ -59,10 +68,25 @@
 			{
 				"items": [
 					"btnPasarPregunta",
-					"btnOpciones"
+					"btnOpciones",
+					"btnVolver"
 				],
 				"subfolders": [],
 				"name": "Controles"
+			},
+			{
+				"items": [
+					"Browser"
+				],
+				"subfolders": [],
+				"name": "Sistema"
+			},
+			{
+				"items": [
+					"retroSeleccion"
+				],
+				"subfolders": [],
+				"name": "GUI"
 			}
 		]
 	},
@@ -75,14 +99,16 @@
 	"layouts": {
 		"items": [
 			"Principal",
-			"Splash"
+			"Splash",
+			"FinJuego"
 		],
 		"subfolders": []
 	},
 	"eventSheets": {
 		"items": [
 			"ePrincipal",
-			"eSplash"
+			"eSplash",
+			"eFinJuego"
 		],
 		"subfolders": []
 	},
@@ -191,6 +217,11 @@
 					"name": "preguntas.json",
 					"type": "application/json",
 					"sid": 158970939529524
+				},
+				{
+					"name": "master.css",
+					"type": "text/css",
+					"sid": 152482418714146
 				}
 			],
 			"subfolders": []

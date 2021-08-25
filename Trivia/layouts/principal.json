@@ -91,8 +91,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 276,
-						"y": 211,
+						"x": 268,
+						"y": 200,
 						"width": 947,
 						"height": 76,
 						"originX": 0,
@@ -111,11 +111,11 @@
 					"type": "btnPasarPregunta",
 					"properties": {
 						"type": "button",
-						"text": ">>",
+						"text": ">>>",
 						"tooltip": "",
 						"initially-visible": true,
 						"enabled": true,
-						"auto-font-size": true,
+						"auto-font-size": false,
 						"checked": false,
 						"id": ""
 					},
@@ -125,8 +125,8 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 887,
-						"y": 724,
+						"x": 939,
+						"y": 780,
 						"width": 154,
 						"height": 93,
 						"originX": 0,
@@ -143,11 +143,11 @@
 					"type": "btnPasarPregunta",
 					"properties": {
 						"type": "button",
-						"text": "<<",
+						"text": "<<<",
 						"tooltip": "",
 						"initially-visible": true,
 						"enabled": true,
-						"auto-font-size": true,
+						"auto-font-size": false,
 						"checked": false,
 						"id": ""
 					},
@@ -157,8 +157,8 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 221,
-						"y": 699,
+						"x": 142,
+						"y": 780,
 						"width": 154,
 						"height": 93,
 						"originX": 0,
@@ -179,7 +179,7 @@
 						"tooltip": "",
 						"initially-visible": true,
 						"enabled": true,
-						"auto-font-size": true,
+						"auto-font-size": false,
 						"checked": false,
 						"id": ""
 					},
@@ -189,10 +189,10 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 377,
-						"y": 392,
-						"width": 398,
-						"height": 45,
+						"x": 288,
+						"y": 331,
+						"width": 576,
+						"height": 75,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -211,7 +211,7 @@
 						"tooltip": "",
 						"initially-visible": true,
 						"enabled": true,
-						"auto-font-size": true,
+						"auto-font-size": false,
 						"checked": false,
 						"id": ""
 					},
@@ -221,10 +221,10 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 384,
-						"y": 469,
-						"width": 398,
-						"height": 45,
+						"x": 295,
+						"y": 453,
+						"width": 570,
+						"height": 76,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -243,7 +243,7 @@
 						"tooltip": "",
 						"initially-visible": true,
 						"enabled": true,
-						"auto-font-size": true,
+						"auto-font-size": false,
 						"checked": false,
 						"id": ""
 					},
@@ -253,10 +253,10 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 381,
-						"y": 546,
-						"width": 398,
-						"height": 45,
+						"x": 292,
+						"y": 582,
+						"width": 590,
+						"height": 94,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -266,9 +266,111 @@
 							1
 						]
 					}
+				},
+				{
+					"type": "txtTiempo",
+					"properties": {
+						"text": ".",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 48,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							0,
+							0,
+							0,
+							1
+						],
+						"horizontal-alignment": "center",
+						"vertical-alignment": "center",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 12,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 11,
+						"y": 2,
+						"width": 259,
+						"height": 135,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
 				}
 			],
 			"sid": 321836800544206,
+			"effectTypes": [],
+			"isInitiallyVisible": true,
+			"color": [
+				1,
+				1,
+				1,
+				1
+			],
+			"backgroundColor": [
+				0.3686274509803922,
+				0.3686274509803922,
+				0.3686274509803922,
+				1
+			],
+			"isTransparent": true,
+			"parallaxX": 1,
+			"parallaxY": 1,
+			"scaleRate": 1,
+			"forceOwnTexture": false,
+			"renderingMode": "3d",
+			"useRenderCells": false,
+			"blendMode": "normal",
+			"zElevation": 0,
+			"global": false
+		},
+		{
+			"name": "Modal",
+			"overriden": 0,
+			"instances": [
+				{
+					"type": "retroSeleccion",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Correcta",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 11,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 1187,
+						"y": 217,
+						"width": 250,
+						"height": 250,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				}
+			],
+			"sid": 654611071908268,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
 			"color": [

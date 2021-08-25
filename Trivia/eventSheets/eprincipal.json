@@ -2,6 +2,16 @@
 	"name": "ePrincipal",
 	"events": [
 		{
+			"eventType": "variable",
+			"name": "tiempo",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 415018849205462
+		},
+		{
 			"eventType": "group",
 			"disabled": false,
 			"title": "Iniciar",
@@ -21,6 +31,41 @@
 						{
 							"type": "script",
 							"script": "init(runtime)"
+						},
+						{
+							"id": "set-elem-attribute",
+							"objectClass": "btnOpciones",
+							"sid": 808794368485605,
+							"parameters": {
+								"attribute-name": "\"class\"",
+								"attribute-value": "\"btn-transparente\""
+							}
+						},
+						{
+							"id": "set-elem-attribute",
+							"objectClass": "btnPasarPregunta",
+							"sid": 250352777695003,
+							"parameters": {
+								"attribute-name": "\"class\"",
+								"attribute-value": "\"btn-rojo\""
+							}
+						},
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 259549506306201,
+							"parameters": {
+								"variable": "tiempo",
+								"value": "10"
+							}
+						},
+						{
+							"id": "set-text",
+							"objectClass": "txtTiempo",
+							"sid": 224171194411994,
+							"parameters": {
+								"text": "tiempo"
+							}
 						}
 					],
 					"sid": 772046087004487
@@ -81,6 +126,81 @@
 				}
 			],
 			"sid": 232069056496393
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Cuenta regresiva",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "every-x-seconds",
+							"objectClass": "System",
+							"sid": 531433134917277,
+							"parameters": {
+								"interval-seconds": "1.0"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "subtract-from-eventvar",
+							"objectClass": "System",
+							"sid": 966269666049805,
+							"parameters": {
+								"variable": "tiempo",
+								"value": "1"
+							}
+						},
+						{
+							"id": "set-text",
+							"objectClass": "txtTiempo",
+							"sid": 378090001466496,
+							"parameters": {
+								"text": "tiempo"
+							}
+						},
+						{
+							"type": "script",
+							"script": "const tiempo =runtime.globalVars.tiempo;\n\nconsole.log(tiempo)"
+						}
+					],
+					"sid": 119341022383280,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-eventvar",
+									"objectClass": "System",
+									"sid": 787416839717164,
+									"parameters": {
+										"variable": "tiempo",
+										"comparison": 3,
+										"value": "0"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "go-to-layout",
+									"objectClass": "System",
+									"sid": 391504886835575,
+									"parameters": {
+										"layout": "FinJuego"
+									}
+								}
+							],
+							"sid": 345788064781649
+						}
+					]
+				}
+			],
+			"sid": 525305845805684
 		}
 	],
 	"sid": 567426722686101

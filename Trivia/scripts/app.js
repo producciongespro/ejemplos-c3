@@ -5,6 +5,7 @@ let preguntas;
 let indice = 0;
 let txtPregunta;
 let btnOpciones;
+let retroSeleccion;
 
 
 
@@ -13,7 +14,7 @@ export async function setup (rt) {
 	preguntas = await cargarDatos(runtime);
 	setTimeout( 
 		()=> runtime.goToLayout("Principal"), 
-		1500 )	
+		500 )	
 }
 
 
@@ -21,7 +22,8 @@ export function init () {
 	console.log("preguntas", preguntas);
 	txtPregunta = runtime.objects.txtPregunta.getFirstInstance();
 	btnOpciones = runtime.objects.btnOpciones.getAllInstances();
-	
+	retroSeleccion = runtime.objects.retroSeleccion.getFirstInstance();
+	indice = 0;
 	renderItem()
 }
 
@@ -42,11 +44,13 @@ export function handlePasarItem () {
 	if ( id == "adelante") {
 		if ( indice < preguntas.length - 1) {
 				indice++
+				retroSeleccion.isVisible= false;
 			}
 	};
 		if ( id == "atras") {
 			if (indice > 0) {
-				indice--		
+				indice--
+				retroSeleccion.isVisible= false;
 			}
 		
 	}
@@ -59,10 +63,21 @@ export function handleSeleccionarOpcion () {
 	console.log(seleccion.instVars.opcion);
 	
 	if (seleccion.instVars.opcion == preguntas[indice].respuesta ) {
-		console.log( "Muy bien" )
+		console.log( "Muy bien" );
+		mostrarRetro("Correcta");
 	} else {
-		console.log( "Muy mal" )
+		console.log( "Muy mal" );
+		mostrarRetro("Incorrecta");
 	}
+}
+
+
+function mostrarRetro (tipo) {
+	
+	
+	retroSeleccion.setAnimation(tipo);
+	retroSeleccion.isVisible = true;
+	
 }
 
 
