@@ -1,0 +1,15 @@
+{
+	"name": "btnOpciones",
+	"plugin-id": "Button",
+	"sid": 723529562496192,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "opcion",
+			"type": "string",
+			"desc": "",
+			"sid": 542074350470694
+		}
+	],
+	"behaviorTypes": []
+}

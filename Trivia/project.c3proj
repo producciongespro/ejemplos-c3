@@ -13,6 +13,22 @@
 			"author": "Scirra",
 			"version": "r260",
 			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Text",
+			"name": "Text",
+			"author": "Scirra",
+			"version": "r260",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Button",
+			"name": "Button",
+			"author": "Scirra",
+			"version": "r260",
+			"bundled": false
 		}
 	],
 	"uniqueId": "aaxugm5g9ax",
@@ -25,6 +41,28 @@
 				],
 				"subfolders": [],
 				"name": "Animaciones"
+			},
+			{
+				"items": [
+					"bgTrivia"
+				],
+				"subfolders": [],
+				"name": "Fondos"
+			},
+			{
+				"items": [
+					"txtPregunta"
+				],
+				"subfolders": [],
+				"name": "Textos"
+			},
+			{
+				"items": [
+					"btnPasarPregunta",
+					"btnOpciones"
+				],
+				"subfolders": [],
+				"name": "Controles"
 			}
 		]
 	},

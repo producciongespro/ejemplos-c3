@@ -1,0 +1,15 @@
+{
+	"name": "btnPasarPregunta",
+	"plugin-id": "Button",
+	"sid": 864878215646155,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "id",
+			"type": "string",
+			"desc": "",
+			"sid": 492249043831973
+		}
+	],
+	"behaviorTypes": []
+}

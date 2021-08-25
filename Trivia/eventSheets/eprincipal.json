@@ -27,6 +27,60 @@
 				}
 			],
 			"sid": 737907254295634
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Eventos botones pasar pregunta",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-clicked",
+							"objectClass": "btnPasarPregunta",
+							"sid": 126965371020601
+						}
+					],
+					"actions": [
+						{
+							"type": "script",
+							"script": "handlePasarItem()"
+						}
+					],
+					"sid": 414299328263270
+				}
+			],
+			"sid": 730453805348380
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Evento clic de opciones",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-clicked",
+							"objectClass": "btnOpciones",
+							"sid": 796181457772888
+						}
+					],
+					"actions": [
+						{
+							"type": "script",
+							"script": "handleSeleccionarOpcion()"
+						}
+					],
+					"sid": 263716951975648
+				}
+			],
+			"sid": 232069056496393
 		}
 	],
 	"sid": 567426722686101

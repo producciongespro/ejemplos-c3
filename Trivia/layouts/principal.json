@@ -2,9 +2,39 @@
 	"name": "Principal",
 	"layers": [
 		{
-			"name": "Layer 0",
+			"name": "Fondo",
 			"overriden": 0,
-			"instances": [],
+			"instances": [
+				{
+					"type": "bgTrivia",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 3,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 0,
+						"y": 0,
+						"width": 1920,
+						"height": 1080,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				}
+			],
 			"sid": 195618993097811,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
@@ -21,6 +51,239 @@
 				1
 			],
 			"isTransparent": false,
+			"parallaxX": 1,
+			"parallaxY": 1,
+			"scaleRate": 1,
+			"forceOwnTexture": false,
+			"renderingMode": "3d",
+			"useRenderCells": false,
+			"blendMode": "normal",
+			"zElevation": 0,
+			"global": false
+		},
+		{
+			"name": "Princiapl",
+			"overriden": 0,
+			"instances": [
+				{
+					"type": "txtPregunta",
+					"properties": {
+						"text": "Text",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 36,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							0,
+							0,
+							0,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 4,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 276,
+						"y": 211,
+						"width": 947,
+						"height": 76,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "btnPasarPregunta",
+					"properties": {
+						"type": "button",
+						"text": ">>",
+						"tooltip": "",
+						"initially-visible": true,
+						"enabled": true,
+						"auto-font-size": true,
+						"checked": false,
+						"id": ""
+					},
+					"uid": 5,
+					"instanceVariables": {
+						"id": "adelante"
+					},
+					"behaviors": {},
+					"world": {
+						"x": 887,
+						"y": 724,
+						"width": 154,
+						"height": 93,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						]
+					}
+				},
+				{
+					"type": "btnPasarPregunta",
+					"properties": {
+						"type": "button",
+						"text": "<<",
+						"tooltip": "",
+						"initially-visible": true,
+						"enabled": true,
+						"auto-font-size": true,
+						"checked": false,
+						"id": ""
+					},
+					"uid": 6,
+					"instanceVariables": {
+						"id": "atras"
+					},
+					"behaviors": {},
+					"world": {
+						"x": 221,
+						"y": 699,
+						"width": 154,
+						"height": 93,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						]
+					}
+				},
+				{
+					"type": "btnOpciones",
+					"properties": {
+						"type": "button",
+						"text": "opción 1",
+						"tooltip": "",
+						"initially-visible": true,
+						"enabled": true,
+						"auto-font-size": true,
+						"checked": false,
+						"id": ""
+					},
+					"uid": 7,
+					"instanceVariables": {
+						"opcion": "1"
+					},
+					"behaviors": {},
+					"world": {
+						"x": 377,
+						"y": 392,
+						"width": 398,
+						"height": 45,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						]
+					}
+				},
+				{
+					"type": "btnOpciones",
+					"properties": {
+						"type": "button",
+						"text": "opción 2",
+						"tooltip": "",
+						"initially-visible": true,
+						"enabled": true,
+						"auto-font-size": true,
+						"checked": false,
+						"id": ""
+					},
+					"uid": 8,
+					"instanceVariables": {
+						"opcion": "2"
+					},
+					"behaviors": {},
+					"world": {
+						"x": 384,
+						"y": 469,
+						"width": 398,
+						"height": 45,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						]
+					}
+				},
+				{
+					"type": "btnOpciones",
+					"properties": {
+						"type": "button",
+						"text": "opción 3",
+						"tooltip": "",
+						"initially-visible": true,
+						"enabled": true,
+						"auto-font-size": true,
+						"checked": false,
+						"id": ""
+					},
+					"uid": 9,
+					"instanceVariables": {
+						"opcion": "3"
+					},
+					"behaviors": {},
+					"world": {
+						"x": 381,
+						"y": 546,
+						"width": 398,
+						"height": 45,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						]
+					}
+				}
+			],
+			"sid": 321836800544206,
+			"effectTypes": [],
+			"isInitiallyVisible": true,
+			"color": [
+				1,
+				1,
+				1,
+				1
+			],
+			"backgroundColor": [
+				0.3686274509803922,
+				0.3686274509803922,
+				0.3686274509803922,
+				1
+			],
+			"isTransparent": true,
 			"parallaxX": 1,
 			"parallaxY": 1,
 			"scaleRate": 1,
