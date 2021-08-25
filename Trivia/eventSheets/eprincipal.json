@@ -53,10 +53,10 @@
 						{
 							"id": "set-eventvar-value",
 							"objectClass": "System",
-							"sid": 259549506306201,
+							"sid": 229788479630658,
 							"parameters": {
 								"variable": "tiempo",
-								"value": "10"
+								"value": "8"
 							}
 						},
 						{
