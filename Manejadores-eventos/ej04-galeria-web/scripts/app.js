@@ -21,7 +21,7 @@ export async function setup (rt) {
 		nuevoBtn.instVars.descripcion = item.descripcion;
 		nuevoBtn.instVars.url= item.url;
 		
-		nuevoBtn.addEventListener("click", handleMostrarSitio );
+		//nuevoBtn.addEventListener("click", handleMostrarSitio );
 		
 		posX +=100;
 		
@@ -32,13 +32,9 @@ export async function setup (rt) {
 }
 
 
-function handleMostrarSitio (e) {
+function handleMostrarSitio () {
 	const seleccionado = runtime.objects.btnInfo.getFirstPickedInstance();
 	const url = seleccionado.instVars.url;
-	//console.log(url);
-	
-	const ifrVisor = runtime.objects.ifrVisor.getFirstInstance();
-	console.log(ifrVisor);
-		ifrVisor
+	runtime.callFunction("cargarUrl", [url] )
 	
 }

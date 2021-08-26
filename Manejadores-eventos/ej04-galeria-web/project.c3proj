@@ -21,13 +21,22 @@
 			"author": "Scirra",
 			"version": "r260",
 			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Browser",
+			"name": "Browser",
+			"author": "Scirra",
+			"version": "r260",
+			"bundled": false
 		}
 	],
 	"uniqueId": "25s8oljvs4h",
 	"objectTypes": {
 		"items": [
 			"btnInfo",
-			"ifrVisor"
+			"ifrVisor",
+			"Browser"
 		],
 		"subfolders": []
 	},

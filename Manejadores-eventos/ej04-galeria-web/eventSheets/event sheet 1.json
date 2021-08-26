@@ -17,6 +17,27 @@
 				}
 			],
 			"sid": 633364913445333
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "btnInfo",
+					"sid": 263485997444772
+				}
+			],
+			"actions": [
+				{
+					"id": "navigate-url",
+					"objectClass": "ifrVisor",
+					"sid": 839448361921300,
+					"parameters": {
+						"url": "btnInfo.url"
+					}
+				}
+			],
+			"sid": 970361961108968
 		}
 	],
 	"sid": 481364201623533
