@@ -37,6 +37,35 @@
 							1
 						]
 					}
+				},
+				{
+					"type": "ifrVisor",
+					"properties": {
+						"url": "https://www.construct.net",
+						"html": "",
+						"initially-visible": true,
+						"id": "",
+						"allow": "fullscreen; autoplay; encrypted-media",
+						"enable-sandbox": false,
+						"sandbox": "allow-scripts"
+					},
+					"uid": 3,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 69,
+						"y": 218,
+						"width": 680,
+						"height": 347,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						]
+					}
 				}
 			],
 			"sid": 798147418058175,
@@ -62,6 +91,7 @@
 			"renderingMode": "3d",
 			"useRenderCells": false,
 			"blendMode": "normal",
+			"zElevation": 0,
 			"global": false
 		}
 	],
@@ -71,5 +101,7 @@
 	"width": 800,
 	"height": 600,
 	"unboundedScrolling": false,
+	"vpX": 0.5,
+	"vpY": 0.5,
 	"eventSheet": "Event sheet 1"
 }

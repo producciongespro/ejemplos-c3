@@ -1,6 +1,6 @@
 {
 	"projectFormatVersion": 1,
-	"savedWithRelease": 25102,
+	"savedWithRelease": 26000,
 	"name": "crear-botones",
 	"runtime": "c3",
 	"useWorker": "auto",
@@ -11,14 +11,23 @@
 			"id": "Button",
 			"name": "Button",
 			"author": "Scirra",
-			"version": "r251.2",
+			"version": "r260",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "iframe",
+			"name": "iframe",
+			"author": "Scirra",
+			"version": "r260",
 			"bundled": false
 		}
 	],
 	"uniqueId": "25s8oljvs4h",
 	"objectTypes": {
 		"items": [
-			"btnInfo"
+			"btnInfo",
+			"ifrVisor"
 		],
 		"subfolders": []
 	},
@@ -44,7 +53,7 @@
 		"script": {
 			"items": [
 				{
-					"name": "main.js",
+					"name": "app.js",
 					"type": "application/javascript",
 					"sid": 518287085473077,
 					"script-info": {
@@ -182,9 +191,7 @@
 			1,
 			0
 		],
-		"useHighDpi": true,
 		"orientations": "landscape",
-		"enableWebGL": true,
 		"gpuPreference": "high-performance",
 		"scriptsType": "module",
 		"framerateMode": "vsync",
@@ -196,8 +203,6 @@
 		"maxSpriteSheetSize": 2048,
 		"loaderStyle": "splash",
 		"preloadSounds": true,
-		"clearBackground": true,
-		"enhancedAccelerationPrecision": true,
 		"cordovaiOSScheme": "app"
 	},
 	"viewportWidth": 800,

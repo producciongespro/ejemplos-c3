@@ -1,6 +1,7 @@
+let runtime;
 
-
-export async function setup (runtime) {
+export async function setup (rt) {
+	runtime = rt;
 	
 	let posX = 100;
 	const BtnInfo = runtime.objects.btnInfo;
@@ -32,7 +33,12 @@ export async function setup (runtime) {
 
 
 function handleMostrarSitio (e) {
-	//btn.instVars.url
-	console.log(e)
+	const seleccionado = runtime.objects.btnInfo.getFirstPickedInstance();
+	const url = seleccionado.instVars.url;
+	//console.log(url);
+	
+	const ifrVisor = runtime.objects.ifrVisor.getFirstInstance();
+	console.log(ifrVisor);
+		ifrVisor
 	
 }
