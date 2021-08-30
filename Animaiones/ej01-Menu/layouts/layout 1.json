@@ -21,9 +21,9 @@
 					"behaviors": {},
 					"world": {
 						"x": 800,
-						"y": -133,
-						"width": 1004,
-						"height": 471,
+						"y": -258,
+						"width": 1932.96,
+						"height": 784.8679999999999,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -34,6 +34,196 @@
 						],
 						"angle": 0,
 						"zElevation": 0
+					}
+				},
+				{
+					"type": "btn1",
+					"properties": {
+						"type": "button",
+						"text": "botón 1",
+						"tooltip": "",
+						"initially-visible": true,
+						"enabled": true,
+						"auto-font-size": true,
+						"checked": false,
+						"id": ""
+					},
+					"uid": 5,
+					"instanceVariables": {
+						"activo": false
+					},
+					"behaviors": {
+						"Pin": {
+							"properties": {
+								"destroy": false
+							}
+						}
+					},
+					"world": {
+						"x": -45,
+						"y": -578,
+						"width": 501,
+						"height": 116,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						]
+					}
+				},
+				{
+					"type": "btn1",
+					"properties": {
+						"type": "button",
+						"text": "botón 1",
+						"tooltip": "",
+						"initially-visible": true,
+						"enabled": true,
+						"auto-font-size": true,
+						"checked": false,
+						"id": ""
+					},
+					"uid": 6,
+					"instanceVariables": {
+						"activo": false
+					},
+					"behaviors": {
+						"Pin": {
+							"properties": {
+								"destroy": false
+							}
+						}
+					},
+					"world": {
+						"x": -28,
+						"y": -404,
+						"width": 501,
+						"height": 116,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						]
+					}
+				},
+				{
+					"type": "btn1",
+					"properties": {
+						"type": "button",
+						"text": "botón 1",
+						"tooltip": "",
+						"initially-visible": true,
+						"enabled": true,
+						"auto-font-size": true,
+						"checked": false,
+						"id": ""
+					},
+					"uid": 7,
+					"instanceVariables": {
+						"activo": false
+					},
+					"behaviors": {
+						"Pin": {
+							"properties": {
+								"destroy": false
+							}
+						}
+					},
+					"world": {
+						"x": -28,
+						"y": -242,
+						"width": 501,
+						"height": 116,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						]
+					}
+				},
+				{
+					"type": "btn1",
+					"properties": {
+						"type": "button",
+						"text": "botón 1",
+						"tooltip": "",
+						"initially-visible": true,
+						"enabled": true,
+						"auto-font-size": true,
+						"checked": false,
+						"id": ""
+					},
+					"uid": 8,
+					"instanceVariables": {
+						"activo": false
+					},
+					"behaviors": {
+						"Pin": {
+							"properties": {
+								"destroy": false
+							}
+						}
+					},
+					"world": {
+						"x": 526,
+						"y": -573,
+						"width": 501,
+						"height": 116,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						]
+					}
+				},
+				{
+					"type": "btn1",
+					"properties": {
+						"type": "button",
+						"text": "botón 1",
+						"tooltip": "",
+						"initially-visible": true,
+						"enabled": true,
+						"auto-font-size": true,
+						"checked": false,
+						"id": ""
+					},
+					"uid": 9,
+					"instanceVariables": {
+						"activo": false
+					},
+					"behaviors": {
+						"Pin": {
+							"properties": {
+								"destroy": false
+							}
+						}
+					},
+					"world": {
+						"x": 543,
+						"y": -416,
+						"width": 501,
+						"height": 116,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						]
 					}
 				}
 			],

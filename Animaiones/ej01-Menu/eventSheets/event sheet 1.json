@@ -13,7 +13,12 @@
 					}
 				}
 			],
-			"actions": [],
+			"actions": [
+				{
+					"type": "script",
+					"script": "handleMenu(runtime)"
+				}
+			],
 			"sid": 178781835954385,
 			"children": [
 				{
@@ -48,7 +53,8 @@
 							}
 						}
 					],
-					"sid": 114492399629137
+					"sid": 114492399629137,
+					"disabled": true
 				},
 				{
 					"eventType": "block",
@@ -79,9 +85,38 @@
 							}
 						}
 					],
-					"sid": 342291562959216
+					"sid": 342291562959216,
+					"disabled": true
 				}
 			]
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 913302830030727
+				}
+			],
+			"actions": [
+				{
+					"id": "pin-to-object-properties",
+					"objectClass": "btn1",
+					"sid": 668579322466546,
+					"behaviorType": "Pin",
+					"parameters": {
+						"pin-to": "menu",
+						"x": true,
+						"y": true,
+						"angle": true,
+						"width-type": "no",
+						"height-type": "no",
+						"z": false
+					}
+				}
+			],
+			"sid": 887902197514741
 		}
 	],
 	"sid": 752451705200013
