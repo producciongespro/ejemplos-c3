@@ -1,0 +1,31 @@
+{
+	"name": "Event sheet 1",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "Touch",
+					"sid": 453311750552818,
+					"parameters": {
+						"object": "menu"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "play-timeline",
+					"objectClass": "Timeline",
+					"sid": 255166029516698,
+					"parameters": {
+						"timeline": "Abajo",
+						"tags": "\"abajo\""
+					}
+				}
+			],
+			"sid": 178781835954385
+		}
+	],
+	"sid": 752451705200013
+}
