@@ -15,10 +15,12 @@
 						"live-preview": false
 					},
 					"uid": 2,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"isArriba": true
+					},
 					"behaviors": {},
 					"world": {
-						"x": 789,
+						"x": 800,
 						"y": -133,
 						"width": 1004,
 						"height": 471,

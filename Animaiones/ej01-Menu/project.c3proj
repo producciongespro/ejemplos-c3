@@ -147,7 +147,8 @@
 	},
 	"timelines": {
 		"items": [
-			"Abajo"
+			"Abajo",
+			"Arriba"
 		],
 		"subfolders": [
 			{

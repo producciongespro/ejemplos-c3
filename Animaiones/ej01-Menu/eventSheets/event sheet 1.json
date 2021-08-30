@@ -13,18 +13,75 @@
 					}
 				}
 			],
-			"actions": [
+			"actions": [],
+			"sid": 178781835954385,
+			"children": [
 				{
-					"id": "play-timeline",
-					"objectClass": "Timeline",
-					"sid": 255166029516698,
-					"parameters": {
-						"timeline": "Abajo",
-						"tags": "\"abajo\""
-					}
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "menu",
+							"sid": 943965793255110,
+							"parameters": {
+								"instance-variable": "isArriba"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "play-timeline",
+							"objectClass": "Timeline",
+							"sid": 593529728111651,
+							"parameters": {
+								"timeline": "Abajo",
+								"tags": "\"abajo\""
+							}
+						},
+						{
+							"id": "set-boolean-instvar",
+							"objectClass": "menu",
+							"sid": 538201718921378,
+							"parameters": {
+								"instance-variable": "isArriba",
+								"value": "false"
+							}
+						}
+					],
+					"sid": 114492399629137
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "else",
+							"objectClass": "System",
+							"sid": 802604733928947
+						}
+					],
+					"actions": [
+						{
+							"id": "play-timeline",
+							"objectClass": "Timeline",
+							"sid": 332082516036437,
+							"parameters": {
+								"timeline": "Arriba",
+								"tags": "\"abajo\""
+							}
+						},
+						{
+							"id": "set-boolean-instvar",
+							"objectClass": "menu",
+							"sid": 434382158524318,
+							"parameters": {
+								"instance-variable": "isArriba",
+								"value": "true"
+							}
+						}
+					],
+					"sid": 342291562959216
 				}
-			],
-			"sid": 178781835954385
+			]
 		}
 	],
 	"sid": 752451705200013
