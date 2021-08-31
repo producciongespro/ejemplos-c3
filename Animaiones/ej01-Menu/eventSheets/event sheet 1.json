@@ -13,12 +13,7 @@
 					}
 				}
 			],
-			"actions": [
-				{
-					"type": "script",
-					"script": "handleMenu(runtime)"
-				}
-			],
+			"actions": [],
 			"sid": 178781835954385,
 			"children": [
 				{
@@ -53,8 +48,7 @@
 							}
 						}
 					],
-					"sid": 114492399629137,
-					"disabled": true
+					"sid": 114492399629137
 				},
 				{
 					"eventType": "block",
@@ -85,8 +79,7 @@
 							}
 						}
 					],
-					"sid": 342291562959216,
-					"disabled": true
+					"sid": 342291562959216
 				}
 			]
 		},
