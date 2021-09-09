@@ -20,8 +20,8 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 583.5,
-						"y": -258,
+						"x": 1290,
+						"y": -271,
 						"width": 977.9600000000003,
 						"height": 771.111793573515,
 						"originX": 0.5,
@@ -48,44 +48,6 @@
 						"checked": false,
 						"id": ""
 					},
-					"uid": 5,
-					"instanceVariables": {
-						"activo": false
-					},
-					"behaviors": {
-						"Pin": {
-							"properties": {
-								"destroy": false
-							}
-						}
-					},
-					"world": {
-						"x": 216,
-						"y": -578,
-						"width": 338,
-						"height": 116,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						]
-					}
-				},
-				{
-					"type": "btn1",
-					"properties": {
-						"type": "button",
-						"text": "botón 1",
-						"tooltip": "",
-						"initially-visible": true,
-						"enabled": true,
-						"auto-font-size": true,
-						"checked": false,
-						"id": ""
-					},
 					"uid": 6,
 					"instanceVariables": {
 						"activo": false
@@ -98,8 +60,8 @@
 						}
 					},
 					"world": {
-						"x": 233,
-						"y": -404,
+						"x": 926,
+						"y": -319,
 						"width": 338,
 						"height": 116,
 						"originX": 0,
@@ -116,7 +78,7 @@
 					"type": "btn1",
 					"properties": {
 						"type": "button",
-						"text": "botón 1",
+						"text": "botón 2",
 						"tooltip": "",
 						"initially-visible": true,
 						"enabled": true,
@@ -136,8 +98,8 @@
 						}
 					},
 					"world": {
-						"x": 233,
-						"y": -242,
+						"x": 926,
+						"y": -157,
 						"width": 338,
 						"height": 116,
 						"originX": 0,
@@ -154,45 +116,7 @@
 					"type": "btn1",
 					"properties": {
 						"type": "button",
-						"text": "botón 1",
-						"tooltip": "",
-						"initially-visible": true,
-						"enabled": true,
-						"auto-font-size": true,
-						"checked": false,
-						"id": ""
-					},
-					"uid": 8,
-					"instanceVariables": {
-						"activo": false
-					},
-					"behaviors": {
-						"Pin": {
-							"properties": {
-								"destroy": false
-							}
-						}
-					},
-					"world": {
-						"x": 629,
-						"y": -573,
-						"width": 338,
-						"height": 116,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						]
-					}
-				},
-				{
-					"type": "btn1",
-					"properties": {
-						"type": "button",
-						"text": "botón 1",
+						"text": "botón 3",
 						"tooltip": "",
 						"initially-visible": true,
 						"enabled": true,
@@ -212,8 +136,8 @@
 						}
 					},
 					"world": {
-						"x": 636,
-						"y": -388,
+						"x": 1329,
+						"y": -319,
 						"width": 338,
 						"height": 116,
 						"originX": 0,

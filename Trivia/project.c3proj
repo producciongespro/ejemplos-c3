@@ -130,6 +130,14 @@
 					"script-info": {
 						"purpose": "none"
 					}
+				},
+				{
+					"name": "init.js",
+					"type": "application/javascript",
+					"sid": 690107611701921,
+					"script-info": {
+						"purpose": "main"
+					}
 				}
 			],
 			"subfolders": []
